@@ -1,4 +1,5 @@
 mod lib{
+    /// Check your OS
     pub fn are_you_using_linux(){
         if cfg!(target_os = "linux"){
             println!("You are using Linux!! You are My friends!! Foo!!");
